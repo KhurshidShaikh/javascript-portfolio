@@ -1,25 +1,6 @@
-/**
- * Portfolio component
- *
- * Highlights some of  your creations. These can be designs, websites,
- * open source contributions, articles you've written and more.
- *
- * This is a great area for you to to continually add to and refine
- * as you continue to learn and create.
- */
-
 import React from "react";
 
-/**
- * Desk image
- *
- * Below is a sample desk image. Feel free to update this to an image of your choice,
- * updating below imageAltText to string that represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-import image from "../images/design-desk.jpeg";
+import image from "../images/BG3.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,34 +12,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Weather app",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "weather web app built using html,bootstrap and javascript.It is a simple weather forecasting application that uses weather API to fetch relevant data and display on front-end.",
+    url: "https://github.com/KhurshidShaikh/weather-web-app",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Movix",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Web application that allows user search about movies & tv shows and showcase its related data. It also displays popular shows/movies weekly and daily.Developed using react,redux,scss and TMDB API for fetching data .",
+    url: "https://github.com/KhurshidShaikh/movix",
   },
   {
-    title: "My Resume Site",
+    title: "Converse Chatbot",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilitiesA chatbot that responds to user's prompt in text format.It uses gemini API to get response for prompts and display it in a presentable format.",
+    url: "https://github.com/KhurshidShaikh/Converse-Chatbot",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "MCQ Game",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A Multiple choice question game that enables user to select option and also allows navigation between questions and the final score is displayed on end of the game",
+    url: "https://github.com/KhurshidShaikh/MCQ-Game",
   },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding" id="portfolio" style={{backgroundColor: "wheat"}}>
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>

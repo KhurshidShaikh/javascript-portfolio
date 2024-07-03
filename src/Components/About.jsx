@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/BG1.png";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,28 +24,22 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a skilled front-end developer proficient in HTML, CSS, and JavaScript, with a strong foundation in React and a knack for utilizing CSS frameworks like Tailwind CSS to create responsive and visually appealing web applications. .";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
+  "Web development",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Responsive Design",
+  "user interfaces",
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
+
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  " I thrive in dynamic environments where innovation and problem-solving are key. As a quick learner, I adapt swiftly to new technologies and methodologies, ensuring that I deliver high-quality solutions that meet both user needs and business objectives."
 
 const About = () => {
   return (
@@ -53,11 +47,12 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "blue",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          color: "white",
         }}
       >
         <h2>About Myself</h2>
